@@ -206,3 +206,117 @@ footer {
     font-size: 14px;
     color: #94a3b8;
 }
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav div {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .about {
+        max-width: 100%;
+    }
+
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .gallery img {
+        width: 200px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-box {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    nav {
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .main {
+        padding: 40px 15px;
+        gap: 30px;
+    }
+
+    .pic img {
+        width: 180px;
+    }
+
+    .about h1 {
+        font-size: 24px;
+    }
+
+    .about h2 {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .skills {
+        padding: 40px 20px;
+    }
+
+    .skills li {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #projects {
+        padding: 40px 20px;
+    }
+
+    .gallery img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .form-box input,
+    .form-box textarea {
+        width: 100%;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
